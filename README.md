@@ -1,1 +1,2 @@
-# SnappFood-Task
+## SnappFood-Task
+The project entails the acquisition and storage of restaurant data from Google Maps pertaining to Rafsanjan, followed by the augmentation of this dataset through the calculation of various analytical metrics. Subsequently, these analytical insights are to be presented effectively through the development of interactive dashboards using Power BI. This multifaceted endeavor involves the initial extraction of data from Google Maps, the transformation of this data to derive crucial performance metrics, and finally, the visualization of these insights to facilitate accessible and user-friendly exploration and analysis for stakeholders.
