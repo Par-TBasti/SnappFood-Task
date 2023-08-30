@@ -1,1 +1,0 @@
-COPY restaurant TO 'D:\SnappFood\rafsanjan.csv' WITH(FORMAT CSV, HEADER)
