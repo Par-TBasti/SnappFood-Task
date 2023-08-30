@@ -19,3 +19,7 @@ CREATE TABLE metrics_by_type(
 );
 COPY metrics_by_type(Restaurant_Type, Average_Review, Total_Review, Average_Rating, Number) 
 FROM 'D:\SnappFood\csv_files\metrics_by_type.csv' DELIMITER ',' CSV HEADER;
+ALTER TABLE restaurant
+ADD PRIMARY KEY (type);
+ALTER TABLE metrics_by_type
+ADD PRIMARY KEY (Restaurant_Type);
